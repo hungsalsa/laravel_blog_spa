@@ -1,4 +1,8 @@
 {
+    "/admin/js/app_admin.js": "/admin/js/app_admin.js",
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/admin/css/app_admin.css": "/admin/css/app_admin.css",
+    "/admin/css/smart_style.min.css": "/admin/css/smart_style.min.css",
+    "/admin/js/smart_library.min.js": "/admin/js/smart_library.min.js"
 }

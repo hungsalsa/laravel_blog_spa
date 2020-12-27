@@ -13,8 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
  */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['prefix' => 'alobike'], function () {
+    Route::get('/', function () {
+        return view('admin.layouts.app');
+    });
+
+    Route::get('{slug}', function () {
+        return view('admin.layouts.app');
+    });
 });
 
 Route::get('/test', function () {

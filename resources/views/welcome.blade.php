@@ -8,6 +8,9 @@
         
     </head>
     <body>
-        <h1>Body here</h1>
+        <div id="app">
+            <mainapp></mainapp>
+        </div>
     </body>
+    <script src="{{ mix('/js/app.js') }}" defer></script>
 </html>
